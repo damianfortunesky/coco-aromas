@@ -6,3 +6,24 @@ Instalar y crear proyecto
         npm install
         npm run dev
 
+
+
+GIT
+
+# 1. Navegar a la carpeta del proyecto
+cd /ruta/de/tu/proyecto
+
+# 2. Inicializar el repositorio de Git (si aún no lo has hecho)
+git init
+
+# 3. Agregar el repositorio remoto de GitHub (cambia la URL a la de tu repositorio)
+git remote add origin https://github.com/damianfortunesky/coco-aromas.git
+
+# 4. Agregar todos los archivos al área de staging
+git add .
+
+# 5. Realizar el commit inicial
+git commit -m "Primer commit"
+
+# 6. Subir el proyecto al repositorio remoto en GitHub
+git push -u origin master  # (usa "main" en lugar de "master" si tu rama principal es "main")
