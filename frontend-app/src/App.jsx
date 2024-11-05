@@ -1,8 +1,11 @@
+import NavBar from './components/navBar.jsx';
+
 function App() {
- 
   return (
-    <h1>Hola mundo</h1>
+    <div className="bg-red-400">
+        <NavBar></NavBar>
+    </div>
   )
 }
 
-export default App
+export default App;
